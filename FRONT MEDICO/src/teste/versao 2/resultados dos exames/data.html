@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Exames</title>
+    <link rel="stylesheet" href="data.css"> <!-- Vinculando o arquivo CSS externo -->
+</head>
+<body>
+    <!-- Container Principal -->
+    <div class="container">
+        <!-- Seção de Resultados dos Exames -->
+        <div class="exam-results">
+            <h2>Resultado de exames</h2>
+            <!-- Tabela com a lista dos exames -->
+            <table class="exam-table">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Nome do Exame</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="exam-list">
+                    <!-- As linhas de resultados serão geradas dinamicamente pelo JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Pop-up de Detalhes do Exame -->
+    <div id="exam-details-popup" class="pop-up">
+        <button class="close-button">&times;</button> <!-- Botão para fechar o pop-up -->
+        <h2 id="exam-title">Nome do Exame</h2>
+        <p><strong>Data:</strong> <span id="exam-date"></span></p>
+        <p><strong>Descrição:</strong> <span id="exam-description"></span></p>
+        <p id="exam-doctor-crm-date" class="doctor-info"></p> <!-- Nome do Médico, CRM e Data -->
+        
+        <!-- Imagens do Exame -->
+        <div id="exam-images" class="exam-images">
+            <!-- As imagens serão adicionadas dinamicamente pelo JavaScript -->
+        </div>
+    </div>
+
+    <!-- Pop-up de Imagem Maximizada -->
+    <div id="exam-image-popup" class="pop-up-imagem">
+        <button class="close-button">&times;</button> <!-- Botão para fechar o pop-up de imagem -->
+        <div class="imagem-container">
+            <img id="imagem-maximizada" src="" alt="">
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div> <!-- Overlay para escurecer o fundo quando o pop-up está aberto -->
+
+    <script src="data.js"></script> <!-- Vinculando o arquivo JavaScript externo -->
+</body>
+</html>

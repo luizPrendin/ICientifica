@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding-top: 0px;
+  }
+  
+
+  /* NAVBAR ================================================================================== */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #F2EEF7;
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .nav-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #6030A0;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -3px;
+    left: 8px;
+  }
+  
+  .nav-links a:hover::after {
+    width: calc(100% - 14px);
+  }
+  
+  .search-bar {
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+    margin-right: 15px;
+  }
+  
+  .btn-entrar {
+    background-color: #6030A0;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn-entrar:hover {
+    background-color: white;
+    color: #6030A0;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    width: 300px;
+  }
+  
+  /* H1 - OLÁ MUNDO ================================================================================== */
+  main {
+    margin: 150px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #6030A0;
+    margin-bottom: 20px;
+  }
+  
+  /* FOOTER ================================================================================== */
+  .footer {
+    background-color: #6d2ca4;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .footer-icons {
+    margin: 20px 0;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .privacy-policy {
+    color: white;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+  
+  .privacy-policy:hover {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  /* CUSTOM SCROLLBAR ================================================================================== */
+  ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #6030A0;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f4f4f4;
+  }
+
+  /* Imagem logo acima do footer */
+.footer-image {
+  width: 100%; /* A imagem ocupa 100% da largura da tela */
+  display: block; /* Garantir que a imagem seja exibida como bloco */
+  margin: 0; /* Remover qualquer margem padrão */
+  padding: 0; /* Remover qualquer padding padrão */
+}

@@ -1,0 +1,165 @@
+{
+  "perfil": {
+    "fotoPerfil": "https://example.com/foto_perfil.jpg",
+    "nome": "Maria Eduarda",
+    "sobrenome": "Silva Santos",
+    "numeroYaso": "Y 01.23.4.56789",
+    "responsavel": {
+      "nome": "João Silva",
+      "contato": "11 91234-5678",
+      "vinculo": "Pai"
+    },
+    "planoSaude": {
+      "numeroPlano": "98765432100",
+      "nomePlano": "Saúde Total",
+      "vencimento": "2026-05-10"
+    },
+    "numeroSUS": "09876543210",
+    "dataNascimento": "2021-11-05",
+    "onr": "Sim",
+    "doadorOrgaos": "Não",
+    "patologiasConhecidas": [
+      "Asma",
+      "Alergia a pólen"
+    ],
+    "resumoPerfil": "Maria Eduarda é uma criança de 3 anos com acompanhamento médico constante, especialmente para tratar asma e alergias."
+  },
+  "consultas": [
+    {
+      "dataConsulta": "2024-03-15",
+      "horaConsulta": "14:30",
+      "tituloConsulta": "Consulta de Rotina",
+      "resumoConsulta": "Consulta de rotina para avaliar o desenvolvimento da criança."
+    },
+    {
+      "dataConsulta": "2024-06-10",
+      "horaConsulta": "10:00",
+      "tituloConsulta": "Consulta de Acompanhamento da Asma",
+      "resumoConsulta": "Consulta para acompanhamento do tratamento da asma."
+    },
+    {
+      "dataConsulta": "2024-09-25",
+      "horaConsulta": "09:00",
+      "tituloConsulta": "Consulta com Alergologista",
+      "resumoConsulta": "Consulta para avaliação das alergias a pólen e recomendações."
+    }
+  ],
+  "exames": [
+    {
+      "dataExame": "2024-05-01",
+      "tituloExame": "Exame de Sangue",
+      "resumoExame": "Verificação dos níveis de ferro e presença de alergias.",
+      "imagens": [
+        "https://example.com/imagem1.jpg",
+        "https://example.com/imagem2.jpg",
+        "https://example.com/imagem3.jpg",
+        "https://example.com/imagem4.jpg",
+        "https://example.com/imagem5.jpg",
+        "https://example.com/imagem6.jpg"
+      ],
+      "pdf": "https://example.com/exame_sangue.pdf"
+    },
+    {
+      "dataExame": "2024-07-15",
+      "tituloExame": "Teste de Função Pulmonar",
+      "resumoExame": "Avaliação da função pulmonar devido à asma.",
+      "imagens": [
+        "https://example.com/imagem7.jpg",
+        "https://example.com/imagem8.jpg",
+        "https://example.com/imagem9.jpg",
+        "https://example.com/imagem10.jpg",
+        "https://example.com/imagem11.jpg",
+        "https://example.com/imagem12.jpg"
+      ],
+      "pdf": "https://example.com/teste_funcao_pulmonar.pdf"
+    }
+  ],
+  "alergias": [
+    {
+      "tituloAlergia": "Alergia a Pólen",
+      "tipoAlergia": "Respiratória",
+      "gravidadeAlergia": "Moderada",
+      "descricaoAlergia": "Reação alérgica ao pólen, causando espirros e irritação nasal.",
+      "cuidadosNecessarios": "Evitar áreas com alta concentração de pólen."
+    },
+    {
+      "tituloAlergia": "Alergia a Lactose",
+      "tipoAlergia": "Digestiva",
+      "gravidadeAlergia": "Leve",
+      "descricaoAlergia": "Dificuldade em digerir produtos lácteos.",
+      "cuidadosNecessarios": "Evitar consumo de produtos que contenham lactose."
+    }
+  ],
+  "medicamentos": [
+    {
+      "tituloMedicamento": "Salbutamol",
+      "dosagem": "2 puffs",
+      "administracao": "Inalação a cada 4 horas, conforme necessário."
+    },
+    {
+      "tituloMedicamento": "Cetirizina",
+      "dosagem": "5 ml",
+      "administracao": "Via oral, uma vez ao dia."
+    }
+  ],
+  "receitasMedicas": [
+    {
+      "tituloReceita": "Receita de Salbutamol",
+      "dataReceita": "2024-06-10",
+      "pdfReceita": "https://example.com/receita_salbutamol.pdf"
+    },
+    {
+      "tituloReceita": "Receita de Cetirizina",
+      "dataReceita": "2024-09-01",
+      "pdfReceita": "https://example.com/receita_cetirizina.pdf"
+    }
+  ],
+  "vacinasStatus": [
+    {
+      "nomeVacina": "BCG",
+      "dataAplicacao": "2021-12-10",
+      "comprovante": "https://example.com/comprovante_bcg.jpg",
+      "status": "Aplicada"
+    },
+    {
+      "nomeVacina": "Hepatite B",
+      "dataAplicacao": "2021-12-15",
+      "comprovante": "https://example.com/comprovante_hepatiteb.jpg",
+      "status": "Aplicada"
+    }
+  ],
+  "vacinasReforco": [
+    {
+      "nomeVacina": "Gripe",
+      "anos": {
+        "2020": "Não",
+        "2021": "Não",
+        "2022": "Sim",
+        "2023": "Sim",
+        "2024": "Sim",
+        "2025": "Não"
+      }
+    },
+    {
+      "nomeVacina": "Covid",
+      "anos": {
+        "2020": "Não",
+        "2021": "Não",
+        "2022": "Sim",
+        "2023": "Sim",
+        "2024": "Sim",
+        "2025": "Não"
+      }
+    }
+  ],
+  "textoCustomizado": [
+    {
+      "tituloTexto": "Cuidados Gerais",
+      "conteudoTexto": "Maria Eduarda deve evitar locais com muita poeira e áreas com alta concentração de pólen devido a sua condição asmática e alergias."
+    },
+    {
+      "tituloTexto": "Recomendações Alimentares",
+      "conteudoTexto": "Evitar alimentos com lactose e manter uma dieta rica em vegetais e frutas para garantir um bom desenvolvimento nutricional."
+    }
+  ]
+}

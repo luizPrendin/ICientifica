@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaso Saúde</title>
+  <link rel="stylesheet" href="../css/paciente.css">
+  <link rel="stylesheet" href="../css/pesquisa.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- NAVBAR --------------------------------------------------------------------------------------------- -->
+  <header>
+    <nav class="navbar">
+      <img src="../images/logoroxa.png" alt="Logomarca Yaso" class="logo">
+      <ul class="nav-links">
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="projeto.html">Projeto</a></li>
+        <li><a href="usuario.html">Usuário</a></li>
+        <li><a href="medico.html">Médico</a></li>
+        <li><a href="instituicao.html">Instituição</a></li>
+        <li><a href="features.html">Features</a></li>
+      </ul>
+      <input type="text" placeholder="Buscar..." class="search-bar">
+      <a href="../pages/login.html" class="btn-entrar">Entrar</a>
+    </nav>
+  </header>
+
+  <!-- CONTEÚDO --------------------------------------------------------------------------------------------- -->
+
+  <main class="main-container">
+    <!-- Primeira Sessão com h1 e linha divisória personalizada -->
+    <section class="first-section">
+        <h1>Perfil do Paciente</h1>
+        <div class="linha-divisoria">
+            <div class="linha"></div>
+            <img src="../images/yroxo.png" alt="Logo Yaso" class="logo-divisoria">
+            <div class="linha"></div>
+        </div>
+    </section>
+
+    <!-- Segunda Sessão com duas colunas e linha vertical no meio -->
+    <section class="second-section">
+        <!-- Sessão Esquerda com 7 divs e linhas cinzas entre elas -->
+        <div class="left-column">
+            <div class="div-content">
+                
+                <div class="div-content div-1">
+                    <!-- Foto do paciente -->
+                    <div class="patient-photo">
+                        <img src="../images/profile-pic.png" alt="Foto do paciente" class="photo-circle">
+                    </div>
+                <br>
+
+                    <!-- Nome, sobrenome e número Yaso -->
+                    <p class="p-perfil-1">Joaquina</p>
+                    <p class="p-perfil-2">Silva Sauro</p>
+                    <p class="p-perfil-3" >Y 00.00.0.00001</p>
+                
+                    <br>
+
+                    <!-- Botão Nova Consulta -->
+                    <button class="btn-new-consult" id="new-consult-btn">Nova Consulta</button>
+                </div>
+                
+                
+                <!-- Pop-up (Para Nova Consulta e Ver Consulta) -->
+<div class="popup-overlay" id="popup-overlay" style="display: none;">
+    <div class="popup">
+        <div class="popup-header">
+            <span class="close-popup" id="close-popup"></span> <!-- Ícone rosa para fechar -->
+        </div>
+        <div class="popup-content">
+            <input type="text" placeholder="Escreva o título da consulta" class="popup-input">
+            <textarea placeholder="Escreva a descrição do que aconteceu na consulta" class="popup-textarea"></textarea>
+        </div>
+        <button class="btn-save-consult" id="save-consult">Salvar Consulta</button>
+    </div>
+</div>
+
+            </div>
+            <hr class="divider">
+            <div class="div-content">
+                
+                <div class="div-content div-2">
+                    <!-- Primeiro par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                
+                    <!-- Espaçamento entre os pares de textos -->
+                    <div class="text-space"></div>
+                
+                    <!-- Segundo par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                
+                    <!-- Espaçamento entre os pares de textos -->
+                    <div class="text-space"></div>
+                
+                    <!-- Terceiro par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                </div>
+                
+
+            </div>
+            <hr class="divider">
+            <div class="div-content">
+                
+                <div class="div-content div-2">
+                    <!-- Primeiro par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                
+                    <!-- Espaçamento entre os pares de textos -->
+                    <div class="text-space"></div>
+                
+                    <!-- Segundo par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                
+                    <!-- Espaçamento entre os pares de textos -->
+                    <div class="text-space"></div>
+                
+                    <!-- Terceiro par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                </div>
+
+            </div>
+            <hr class="divider">
+            <div class="div-content">
+                
+                <div class="div-content div-4">
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                </div>
+                
+
+            </div>
+            <hr class="divider">
+            <div class="div-content">
+                
+                <div class="div-content div-4">
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                </div>
+                
+
+            </div>
+            <hr class="divider">
+            <div class="div-content">
+                
+                <div class="div-content div-2">
+                    <!-- Primeiro par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                
+                    <!-- Espaçamento entre os pares de textos -->
+                    <div class="text-space"></div>
+                
+                    <!-- Segundo par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                
+                    <!-- Espaçamento entre os pares de textos -->
+                    <div class="text-space"></div>
+                
+                    <!-- Terceiro par de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                </div>
+
+            </div>
+            <hr class="divider">
+            <div class="div-content">
+                <div class="div-content div-7">
+                    <!-- Primeiro conjunto de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                
+                    <!-- Espaço entre os conjuntos -->
+                    <div class="text-space"></div>
+                
+                    <!-- Segundo conjunto de textos -->
+                    <p>Texto sem negrito</p>
+                    <p><strong>Texto com negrito</strong></p>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <!-- Linha divisória vertical -->
+        <div class="vertical-divider"></div>
+
+        <!-- Sessão Direita com 12 divs, onde da 3ª em diante são toggles -->
+        <div class="right-column">
+            <!-- Divs normais com Título e Conteúdo -->
+            <div class="div-content">
+                <div class="div-content div-access">
+                    <!-- Estado 1: Botão "Solicitar Acesso" -->
+                    <div id="state-1" class="access-state">
+                        <button id="request-access-btn" class="btn-access">Solicitar Acesso</button>
+                    </div>
+                
+                    <!-- Estado 2: Barra de Progresso e Contador -->
+                    <div id="state-2" class="access-state" style="display: none;">
+                        <p>Acesso autorizado</p>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <p class="timer">00 h 14 m 28 s</p>
+                        <button id="end-access-btn" class="btn-access">Encerrar</button>
+                    </div>
+                
+                    <!-- Estado 3: Acesso Expirado, Pergunta e Botões de Sim/Não -->
+                    <div id="state-3" class="access-state" style="display: none;">
+                        <p>Seu acesso expirou, deseja solicitar novamente?</p>
+                        <button id="yes-btn" class="btn-access">Sim</button>
+                        <button id="no-btn" class="btn-access">Não</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="div-content div-title-content">
+                <!-- Título 2 em negrito -->
+                <h3 class="title-2">Título 2</h3>
+                
+                <!-- Conteúdo 2 sem negrito -->
+                <p class="content-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ducimus excepturi cupiditate, enim inventore quasi suscipit repellat aperiam? Tempore, nihil perspiciatis error vero amet totam ab aut, eius officia excepturi blanditiis. Quas dolores commodi suscipit explicabo, porro tenetur rem modi aut sunt assumenda iusto sequi, animi accusantium numquam similique iure perspiciatis aliquam pariatur nesciunt eaque possimus totam. Dolorem voluptatum porro nemo repudiandae incidunt placeat quaerat eligendi obcaecati, deserunt tempore animi! Cupiditate iusto eligendi quod praesentium non nulla deleniti minus consequatur mollitia molestias distinctio molestiae delectus error dolorum necessitatibus nihil illum nemo, laboriosam nesciunt dolores, dolor quos maxime! Maxime repellat quasi reprehenderit non officiis possimus libero fuga optio dolorum. Eos corrupti in harum quasi placeat mollitia, quidem veniam, modi eaque maiores labore saepe iste eius et eligendi aperiam dicta animi? Beatae veritatis nulla expedita. Doloremque voluptates iure suscipit quis? Quia iure tempore quo commodi, natus voluptatum esse illo neque excepturi laborum quasi sit voluptatem accusamus optio corrupti rerum! Consectetur esse, neque odio iure, aut aliquam porro quas eligendi ipsam id molestias veniam perspiciatis maiores delectus ducimus ea architecto illum labore minus fuga veritatis saepe hic cumque. Illo commodi suscipit eaque eveniet corporis natus molestiae! Consequatur provident aliquam eveniet. Ullam, voluptate magnam!</p>
+            </div>
+            
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <!-- Toggles começam a partir daqui -->
+
+            <div class="div-content div-toggle">
+                <!-- Estado 1: Cabeçalho do Toggle -->
+                <div class="toggle-header" id="toggle-header">
+                    <span class="toggle-label">lorem ipsum</span>
+                    <span class="toggle-icon">
+                        <img src="../images/icon-circle.png" alt="Icone" class="toggle-icon-circle">
+                    </span>
+                </div>
+            
+                <!-- Estado 2: Lista de Consultas -->
+                <div class="toggle-list" id="toggle-list" style="display: none;">
+                    <div class="toggle-item">
+                        <span class="toggle-date">00 / 00 / 0000</span>
+                        <span class="toggle-title">Título descritivo da consulta</span>
+                        <button class="btn-view">ver consulta</button>
+                    </div>
+                    <div class="toggle-item">
+                        <span class="toggle-date">00 / 00 / 0000</span>
+                        <span class="toggle-title">Título descritivo da consulta</span>
+                        <button class="btn-view">ver consulta</button>
+                    </div>
+                    <div class="toggle-item">
+                        <span class="toggle-date">00 / 00 / 0000</span>
+                        <span class="toggle-title">Título descritivo da consulta</span>
+                        <button class="btn-view">ver consulta</button>
+                    </div>
+                    <div class="toggle-item">
+                        <span class="toggle-date">00 / 00 / 0000</span>
+                        <span class="toggle-title">Título descritivo da consulta</span>
+                        <button class="btn-view">ver consulta</button>
+                    </div>
+                </div>
+            
+                <!-- Estado 3: Conteúdo Expandido -->
+                <div class="toggle-content" id="toggle-content" style="display: none;">
+                    <h3 class="toggle-consult-title">Título da consulta</h3>
+                    <p class="toggle-consult-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    
+                    <div class="toggle-footer">
+                        <p class="doctor-info">Dra. Fulana de Tal, CRM 000000</p>
+                        <p class="consult-date">00/00/0000 - 00:00</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 4</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 4</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 4</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 5</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 5</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 5</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 6</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 6</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 6</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 7</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 7</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 7</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 8</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 8</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 8</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 9</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 9</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 9</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 10</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 10</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 10</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 11</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 11</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 11</div>
+            </div>
+            <div class="margin-between"></div> <!-- Margem entre eles -->
+
+            <div class="toggle-section">
+                <h3>Título 12</h3>
+                <div class="toggle-header">
+                    <h4>Título do Toggle 12</h4>
+                    <img src="../images/icon.png" alt="Ícone" class="toggle-icon">
+                </div>
+                <div class="toggle-content">Conteúdo do Toggle 12</div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+
+  <!-- FOOTER --------------------------------------------------------------------------------------------- -->
+   <!-- Local para a imagem logo acima do footer -->
+<img src="../images/footer.png" alt="Imagem logo acima do footer" class="footer-image">
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>Yaso Saúde Digital © 2024 Todos os direitos reservados.</p>
+      <div class="footer-icons">
+        <a href="#"><img src="../icon/figma.png" alt="Figma"></a>
+        <a href="#"><img src="../icon/youtube.png" alt="YouTube"></a>
+        <a href="#"><img src="../icon/github.png" alt="GitHub"></a>
+        <a href="#"><img src="../icon/document.png" alt="Documentos"></a>
+      </div>
+      <p><a href="#" class="privacy-policy">política de privacidade</a></p>
+    </div>
+  </footer>
+
+  <script src="../script/paciente.js"></script>
+  <script src="../script/pesquisa.js"></script>
+</body>
+</html>

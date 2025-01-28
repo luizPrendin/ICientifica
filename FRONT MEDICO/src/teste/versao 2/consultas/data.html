@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Paciente - Últimas Consultas</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <div class="consultas-container">
+        <section class="consultas-section">
+            <h2>Consultas Recentes</h2>
+            <table class="consultas-table">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Título da Consulta</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="lista-consultas">
+                    <!-- Linhas de consultas preenchidas dinamicamente pelo JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <div id="detalhes-consulta-popup" class="popup-consulta">
+        <button class="fechar-botao">&times;</button>
+        <h2 id="titulo-consulta">Detalhes da Consulta</h2>
+        <p><strong>Data:</strong> <span id="data-consulta"></span></p>
+        <p><strong>Descrição:</strong> <span id="descricao-consulta"></span></p>
+        <p class="info-medico" id="medico-crm-data"></p>
+    </div>
+
+    <div id="overlay-consulta" class="overlay"></div>
+
+    <script src="data.js"></script>
+</body>
+</html>

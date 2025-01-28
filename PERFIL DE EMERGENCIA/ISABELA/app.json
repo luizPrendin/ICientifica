@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Yaso Emergency",
+    "slug": "yaso-emergency",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Y.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Y.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rrussano.yasoemergency"
+    },
+    "web": {
+      "favicon": "./assets/Y.png"
+    }
+  }
+}

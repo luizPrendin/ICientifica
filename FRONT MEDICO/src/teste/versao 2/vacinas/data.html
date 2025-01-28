@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprovantes de Vacinação</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <div class="vacinas-container">
+        <div class="vacinas-section">
+            <h2>Comprovantes de Vacinação</h2>
+            <table class="vacinas-table">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Nome da Vacina</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="vacinas-lista">
+                    <!-- Vacinas serão inseridas aqui dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Pop-up para Detalhes da Vacina -->
+    <div class="popup-vacina" id="popup-vacina">
+        <button class="fechar-botao" id="fechar-vacina">&times;</button>
+        <h2 id="nome-vacina"></h2>
+        <p><strong>Data:</strong> <span id="data-vacina"></span></p>
+        <img src="vacina.png" alt="Comprovante de Vacinação" id="comprovante-vacina">
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <script src="data.js"></script>
+</body>
+</html>

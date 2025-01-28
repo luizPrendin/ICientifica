@@ -1,0 +1,202 @@
+{
+  "features": [
+    {
+      "id": "token-consentimento",
+      "title": "Função core número 1.",
+      "subtitle": "Token de Consentimento para controle de acesso aos dados",
+      "summary": "O Token de Consentimento permite que os usuários do Yaso tenham total controle sobre quem pode acessar seus dados de saúde e por quanto tempo. A funcionalidade dá ao usuário a capacidade de conceder ou revogar o acesso a dados específicos (exames, consultas, laudos) para médicos, hospitais, laboratórios e outras entidades, com segurança garantida. Sempre que um profissional ou instituição tentar acessar os dados, o sistema solicita a aprovação do usuário, que pode ser feita via notificação no app.",
+      "benefits": "Oferece controle granular e seguro sobre o acesso aos dados pessoais de saúde, com revogação de consentimento a qualquer momento. A tecnologia de criptografia e registro em blockchain mantém os dados seguros e rastreáveis.",
+      "link": "#",
+      "keywords": ["token", "tokens", "consentimento", "consentimentos", "acessar", "revogar", "dados", "blockchain", "criptografia", "aprovação", "aprovações"]
+    },
+    {
+      "id": "modo-emergencia",
+      "title": "Função core número 2.",
+      "subtitle": "Modo Emergência",
+      "summary": "Permite que os dados médicos críticos do usuário sejam acessados em emergências por profissionais de saúde, mesmo com o dispositivo bloqueado, utilizando NFC e QR Code.",
+      "benefits": "Facilita o acesso a informações vitais em emergências, sem comprometer a privacidade do restante dos dados.",
+      "link": "#",
+      "keywords": ["emergência", "emergencias", "dados", "NFC", "QR Code", "acessar", "saúde"]
+    },
+    {
+      "id": "modo-familia",
+      "title": "Função core número 3.",
+      "subtitle": "Modo Família",
+      "summary": "O Modo Família permite que membros da família autorizados acessem os dados de saúde de seus parentes para auxiliar no cuidado médico, especialmente para idosos e crianças.",
+      "benefits": "Aumenta a segurança e cuidado compartilhado entre familiares, com acesso controlado e monitorado.",
+      "link": "#",
+      "keywords": ["família", "familias", "acessar", "dados", "compartilhado"]
+    },
+    {
+      "id": "yaso-card",
+      "title": "Função core número 4.",
+      "subtitle": "Yaso Card",
+      "summary": "O Yaso Card é um cartão digital com as informações essenciais de saúde, como tipo sanguíneo, alergias e histórico médico, acessível por QR Code ou NFC.",
+      "benefits": "Facilita o acesso rápido a informações críticas em situações de emergência.",
+      "link": "#",
+      "keywords": ["yaso", "card", "QR Code", "NFC", "saúde", "dados", "emergencia", "emergencias", "acesso"]
+    },
+    {
+      "id": "perfil-medico-certificado",
+      "title": "Função core número 5.",
+      "subtitle": "Perfil de Médico Certificado",
+      "summary": "Os médicos que utilizam o Yaso possuem perfis verificados e certificados, garantindo que os pacientes tenham confiança nas informações e serviços fornecidos.",
+      "benefits": "Melhora a confiança e segurança do paciente no atendimento médico.",
+      "link": "#",
+      "keywords": ["perfil", "médico", "médicos", "certificado", "certificados", "verificado", "verificados"]
+    },
+    {
+      "id": "reforco-vacinas",
+      "title": "Função core número 6.",
+      "subtitle": "Sistema de reforço de vacinas",
+      "summary": "Permite o acompanhamento automático de vacinas e envio de lembretes de reforços com base no histórico médico do paciente.",
+      "benefits": "Melhora a adesão a campanhas de vacinação e promove o cuidado preventivo.",
+      "link": "#",
+      "keywords": ["vacina", "vacinas", "reforço", "reforços", "lembrete", "lembretes"]
+    },
+    {
+      "id": "integracao-agenda-calendario",
+      "title": "Função core número 7.",
+      "subtitle": "Integração com agenda e calendário",
+      "summary": "Sincroniza automaticamente consultas e exames com calendários pessoais como Google Calendar e Outlook.",
+      "benefits": "Facilita o gerenciamento de compromissos médicos e reduz o risco de esquecimentos.",
+      "link": "#",
+      "keywords": ["agenda", "agendas", "calendário", "calendários", "sincronizar", "sincroniza"]
+    },
+    {
+      "id": "suporte-tecnico-prioritario",
+      "title": "Função core número 8.",
+      "subtitle": "Suporte técnico prioritário",
+      "summary": "Oferece suporte técnico exclusivo e prioritário para usuários e médicos, com resolução rápida de problemas.",
+      "benefits": "Melhora a experiência do usuário com soluções rápidas e eficientes.",
+      "link": "#",
+      "keywords": ["suporte", "técnico", "prioritário", "prioritários"]
+    },
+    {
+      "id": "saude-corporativa",
+      "title": "Função core número 9.",
+      "subtitle": "Programas de saúde corporativa",
+      "summary": "Fornece às empresas um sistema integrado para monitorar e cuidar da saúde de seus funcionários, com relatórios de bem-estar e programas personalizados.",
+      "benefits": "Aumenta a produtividade e o bem-estar geral dos funcionários, promovendo uma cultura de saúde preventiva.",
+      "link": "#",
+      "keywords": ["saúde", "corporativa", "funcionários", "bem-estar", "relatórios"]
+    },
+    {
+      "id": "apoio-saude-mental",
+      "title": "Função core número 10.",
+      "subtitle": "Apoio à saúde mental",
+      "summary": "Oferece suporte contínuo à saúde mental dos usuários, com acompanhamento psicológico e recursos de autoajuda.",
+      "benefits": "Promove o bem-estar mental e previne crises de saúde mental.",
+      "link": "#",
+      "keywords": ["saúde", "mental", "apoio", "psicológico"]
+    },
+    {
+      "id": "realidade-aumentada-exames",
+      "title": "Função core número 11.",
+      "subtitle": "Realidade aumentada para visualização de exames",
+      "summary": "Permite a visualização de exames médicos em 3D utilizando realidade aumentada, melhorando a compreensão do paciente e médico sobre o diagnóstico.",
+      "benefits": "Facilita o entendimento de diagnósticos complexos e melhora a precisão no tratamento.",
+      "link": "#",
+      "keywords": ["realidade", "aumentada", "exames", "visualização", "diagnóstico"]
+    },
+    {
+      "id": "reconhecimento-fala-comandos-voz",
+      "title": "Função core número 12.",
+      "subtitle": "Reconhecimento de fala para interação por comandos de voz",
+      "summary": "Permite que os usuários interajam com o sistema Yaso por comandos de voz, facilitando o uso por pessoas com limitações físicas.",
+      "benefits": "Aumenta a acessibilidade e praticidade no uso do sistema.",
+      "link": "#",
+      "keywords": ["reconhecimento", "fala", "comando", "comandos", "voz", "interação"]
+    },
+    {
+      "id": "alertas-ia",
+      "title": "Função core número 13.",
+      "subtitle": "Sistema de alertas preventivos baseados em IA",
+      "summary": "Utiliza inteligência artificial para gerar alertas sobre possíveis condições de saúde antes que se agravem.",
+      "benefits": "Melhora a prevenção e acompanhamento de doenças crônicas.",
+      "link": "#",
+      "keywords": ["alerta", "alertas", "IA", "inteligência", "artificial", "preventivo", "preventivos"]
+    },
+    {
+      "id": "assistente-receitas-medicas",
+      "title": "Função core número 14.",
+      "subtitle": "Assistente de receitas médicas",
+      "summary": "Gera automaticamente receitas médicas com base nos dados inseridos pelo médico, facilitando a prescrição e evitando erros.",
+      "benefits": "Reduz erros de prescrição e agiliza o processo de atendimento.",
+      "link": "#",
+      "keywords": ["assistente", "receitas", "médicas", "prescrição", "prescrições"]
+    },
+    {
+      "id": "integracao-planos-saude",
+      "title": "Função core número 15.",
+      "subtitle": "Integração automática com planos de saúde",
+      "summary": "Conecta automaticamente os dados do usuário com seu plano de saúde, facilitando a gestão de benefícios e coberturas.",
+      "benefits": "Simplifica o gerenciamento de consultas, exames e autorizações com o plano de saúde.",
+      "link": "#",
+      "keywords": ["planos", "saúde", "integração", "automática", "benefícios"]
+    },
+    {
+      "id": "corte-etapas-atendimento",
+      "title": "Função core número 16.",
+      "subtitle": "Corte de etapas no processo de atendimento",
+      "summary": "Automatiza partes do processo de atendimento médico, reduzindo etapas e otimizando o fluxo de pacientes.",
+      "benefits": "Melhora a eficiência do atendimento e reduz o tempo de espera para o paciente.",
+      "link": "#",
+      "keywords": ["atendimento", "etapas", "automatização", "otimização"]
+    },
+    {
+      "id": "alertas-dinamicos-atendimento",
+      "title": "Função core número 17.",
+      "subtitle": "Sistema de alertas dinâmicos sobre problemas nos locais de atendimento",
+      "summary": "Informa o usuário sobre possíveis problemas em locais de atendimento, como falta de médicos, superlotação e tempo de espera elevado.",
+      "benefits": "Ajuda os usuários a tomarem decisões mais informadas sobre onde buscar atendimento.",
+      "link": "#",
+      "keywords": ["alerta", "alertas", "dinâmico", "dinâmicos", "atendimento", "problemas"]
+    },
+    {
+      "id": "alertas-vacinas",
+      "title": "Função core número 18.",
+      "subtitle": "Alerta sobre vacinas disponíveis nos locais de vacinação",
+      "summary": "Envia notificações sobre a disponibilidade de vacinas nos locais próximos ao usuário.",
+      "benefits": "Facilita o acesso a vacinas, promovendo a saúde preventiva.",
+      "link": "#",
+      "keywords": ["vacinas", "vacina", "alerta", "alertas", "disponível", "disponíveis"]
+    },
+    {
+      "id": "tempo-espera",
+      "title": "Função core número 19.",
+      "subtitle": "Tempo de espera em prontos-socorros, laboratórios, clínicas e hospitais",
+      "summary": "Oferece ao usuário informações em tempo real sobre o tempo de espera nos locais de atendimento.",
+      "benefits": "Ajuda o paciente a escolher a melhor opção para atendimento médico com base na espera estimada.",
+      "link": "#",
+      "keywords": ["espera", "tempo", "pronto-socorro", "laboratório", "clínica", "hospital"]
+    },
+    {
+      "id": "busca-inteligente",
+      "title": "Função core número 20.",
+      "subtitle": "Busca inteligente integrada ao plano de saúde",
+      "summary": "Facilita a busca por médicos, hospitais e clínicas dentro da rede credenciada ao plano de saúde do usuário.",
+      "benefits": "Permite que o usuário encontre rapidamente profissionais e serviços dentro da sua cobertura.",
+      "link": "#",
+      "keywords": ["busca", "inteligente", "plano", "planos", "saúde", "rede", "credenciada"]
+    },
+    {
+      "id": "alertas-condicoes-locais",
+      "title": "Função core número 21.",
+      "subtitle": "Alertas em tempo real sobre condições de locais",
+      "summary": "Notifica o usuário sobre condições ambientais ou de saúde em locais que ele frequenta, como surtos de doenças ou riscos de contaminação.",
+      "benefits": "Ajuda na prevenção de riscos à saúde ao manter o usuário informado sobre as condições do ambiente.",
+      "link": "#",
+      "keywords": ["alerta", "alertas", "condição", "condições", "local", "locais", "real", "tempo"]
+    },
+    {
+      "id": "aplicacao-alertas",
+      "title": "Função core número 22.",
+      "subtitle": "Aplicação dos alertas em consultas, exames e medicamentos",
+      "summary": "Utiliza dados de saúde do usuário para enviar alertas personalizados sobre a necessidade de novas consultas, exames e medicamentos.",
+      "benefits": "Promove um cuidado preventivo e personalizado, ajudando o paciente a seguir corretamente seus tratamentos.",
+      "link": "#",
+      "keywords": ["alerta", "alertas", "consulta", "consultas", "exame", "exames", "medicamento", "medicamentos"]
+    }
+  ]
+}

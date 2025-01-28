@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding-top: 0px;
+  }
+  
+
+  /* NAVBAR ================================================================================== */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #F2EEF7;
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .nav-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #6030A0;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -3px;
+    left: 8px;
+  }
+  
+  .nav-links a:hover::after {
+    width: calc(100% - 14px);
+  }
+  
+  .search-bar {
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+    margin-right: 15px;
+  }
+  
+  .btn-entrar {
+    background-color: #6030A0;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn-entrar:hover {
+    background-color: white;
+    color: #6030A0;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    width: 300px;
+  }
+  
+  /* H1 - OLÁ MUNDO ================================================================================== */
+  main {
+    margin: 150px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #6030A0;
+    margin-bottom: 20px;
+  }
+  
+  /* FOOTER ================================================================================== */
+  .footer {
+    background-color: #6d2ca4;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .footer-icons {
+    margin: 20px 0;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .privacy-policy {
+    color: white;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+  
+  .privacy-policy:hover {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  /* CUSTOM SCROLLBAR ================================================================================== */
+  ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #6030A0;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f4f4f4;
+  }
+
+  /* Imagem logo acima do footer */
+.footer-image {
+  width: 100%; /* A imagem ocupa 100% da largura da tela */
+  display: block; /* Garantir que a imagem seja exibida como bloco */
+  margin: 0; /* Remover qualquer margem padrão */
+  padding: 0; /* Remover qualquer padding padrão */
+}
+
+/* ======================================================================================================================  */
+/* Estilos para a linha divisória */
+.linha-divisoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* A linha ocupará 80% da largura da tela */
+  margin: 40px auto; /* Centraliza a linha e adiciona espaçamento */
+}
+
+.linha {
+  flex-grow: 1;
+  height: 1px; /* Altura fina da linha */
+  background-color: #6030A0; /* Cor roxa da linha */
+}
+
+.logo-divisoria {
+  width: 30px; /* Tamanho da logo */
+  height: auto;
+  margin: 0 15px; /* Espaçamento entre as linhas e a logo */
+}
+
+.services {
+  padding: 30px 20px; /* Reduzido de 50px para 30px */
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nota-ao-leitor {
+  padding: 40px;
+  margin: 0 auto;
+  width: 70%;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#nota-ao-leitor h1 {
+  font-size: 2.5rem;
+  color: #6030A0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#nota-ao-leitor h2 {
+  font-size: 2rem;
+  color: #6030A0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+#nota-ao-leitor p {
+  margin-bottom: 40px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+#resumo-do-projeto {
+  padding: 40px;
+  margin: 0 auto;
+  width: 70%;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#resumo-do-projeto h1 {
+  font-size: 2.5rem;
+  color: #6030A0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#resumo-do-projeto h2 {
+  font-size: 2rem;
+  color: #6030A0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+#resumo-do-projeto p {
+  margin-bottom: 40px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+/* Classe para parágrafos em negrito */
+.bold-text {
+  font-weight: bold;
+}
+
+#cronograma {
+  padding: 40px;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#cronograma h1 {
+  font-size: 2.5rem;
+  color: #6030A0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos da tabela */
+#cronograma table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+#cronograma th, #cronograma td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#cronograma th {
+  background-color: #f4f4f4;
+  font-size: 0.9rem;
+}
+
+#cronograma td img {
+  width: 40px;
+  height: auto;
+}
+
+#cronograma p {
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+/* Coluna das etapas mais larga */
+.etapa-col {
+  width: 500px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+#galeria-fotos {
+  padding: 40px;
+  margin: 0 auto;
+  width: 80%;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#galeria-fotos h1 {
+  font-size: 2.5rem;
+  color: #6030A0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  width: 30%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.gallery-item h3 {
+  font-size: 1.5rem;
+  color: #6030A0;
+}
+
+/* Aumentando a especificidade para garantir que a regra funcione */
+#galeria-fotos .gallery-item p {
+  font-size: 12px !important;
+  color: #555 !important;
+  text-align: justify !important;
+  margin-top: 5px !important;
+}
+
+#links-documentacoes {
+  padding: 40px;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+  text-align: left; /* Alinha o conteúdo à esquerda */
+}
+
+#links-documentacoes h1 {
+  font-size: 2.5rem;
+  color: #6030A0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#links-documentacoes p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+#links-documentacoes ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px; /* Define a fonte da lista como 16px */
+  text-align: left; /* Alinha a lista à esquerda */
+}
+
+#links-documentacoes li {
+  margin-bottom: 10px;
+}
+
+#links-documentacoes a {
+  font-size: 1rem;
+  color: #6030A0;
+  text-decoration: none;
+}
+
+#links-documentacoes a:hover {
+  text-decoration: underline;
+}
+
+#referencias-bibliograficas {
+  padding: 40px;
+  margin: 0 auto;
+  width: 100%;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#referencias-bibliograficas h1 {
+  font-size: 2.5rem;
+  color: #6030A0;
+  margin-bottom: 20px;
+}
+
+.reference-item {
+  margin-bottom: 30px;
+}
+
+.reference-item h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.reference-item p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.reference-item a {
+  color: #0033cc;
+  text-decoration: none;
+}
+
+.reference-item a:hover {
+  text-decoration: underline;
+}
+
+
+/* ======================================================================================================================  */
+/* Estilos responsivos para garantir que os cards fiquem bem distribuídos em telas menores */
+@media (max-width: 1200px) {
+  .service-cards {
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas em telas médias */
+  }
+}
+
+@media (max-width: 768px) {
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .service-cards {
+    grid-template-columns: 1fr; /* 1 coluna em dispositivos móveis */
+  }
+}

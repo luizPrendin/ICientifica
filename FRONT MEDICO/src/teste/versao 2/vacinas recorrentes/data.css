@@ -1,0 +1,59 @@
+/* CSS para Vacinas Recorrentes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.vacinas-recorrentes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.vacinas-recorrentes th, .vacinas-recorrentes td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.vacinas-recorrentes th {
+    background-color: #4c6faf;
+    color: white;
+}
+
+.vacinas-recorrentes td {
+    background-color: #f9f9f9;
+}
+
+.vacinas-recorrentes img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .vacinas-recorrentes th, .vacinas-recorrentes td {
+        padding: 8px;
+    }
+} 

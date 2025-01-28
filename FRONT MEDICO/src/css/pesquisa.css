@@ -1,0 +1,79 @@
+/* ======================================================================================================================  */
+/* Estilos gerais do pop-up */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+  }
+  
+  /* Ícone de fechar no canto superior direito */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Título e Subtítulo do pop-up */
+  #popup-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #popup-subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Linha divisória */
+  .divider {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Seções de Resumo e Benefícios */
+  #popup-summary,
+  #popup-benefits {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Link "Saiba mais..." */
+  .popup-link {
+    font-size: 16px;
+    color: #6030A0;
+    text-decoration: none;
+  }
+  
+  .popup-link:hover {
+    text-decoration: underline;
+  }
+  
+  .hidden {
+    display: none; /* Esconde o pop-up quando a classe hidden é adicionada */
+  }  

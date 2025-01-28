@@ -1,0 +1,91 @@
+{
+    "vacinasRecorrentes": [
+        {
+            "nome": "Gripe",
+            "anos": [
+                {
+                    "ano": 2020,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2021,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2022,
+                    "status": "não"
+                },
+                {
+                    "ano": 2023,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2024,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2025,
+                    "status": "não"
+                }
+            ]
+        },
+        {
+            "nome": "Covid",
+            "anos": [
+                {
+                    "ano": 2020,
+                    "status": "não"
+                },
+                {
+                    "ano": 2021,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2022,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2023,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2024,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2025,
+                    "status": "não"
+                }
+            ]
+        },
+        {
+            "nome": "Dengue",
+            "anos": [
+                {
+                    "ano": 2020,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2021,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2022,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2023,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2024,
+                    "status": "sim"
+                },
+                {
+                    "ano": 2025,
+                    "status": "sim"
+                }
+            ]
+        }
+    ]
+}

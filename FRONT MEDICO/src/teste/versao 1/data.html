@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Médico - Paciente</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    
+    <header class="header-titulo">
+        <h1>Título do Sistema Médico</h1>
+        <div class="linha-com-imagem">
+            <hr class="linha-horizontal">
+            <img src="https://example.com/imagem_central.png" alt="Imagem Central" class="imagem-central">
+            <hr class="linha-horizontal">
+        </div>
+    </header>
+
+    <main>
+        <section id="coluna-esquerda" class="sessao">
+            <div class="div-info">
+                <img src="https://example.com/foto_inexistente.jpg" alt="Foto do Paciente" class="foto-paciente">
+                <h2>Nome</h2>
+                <p>Dois sobrenomes</p>
+                <p>Número Yaso: Y 00.00.0.00001</p>
+                <button onclick="abrirPopUpAdicionarConsulta()">Adicionar consulta</button>
+            </div>
+            <div class="linha-divisoria"></div>
+
+            <div class="div-info">
+                <h3>Responsável</h3>
+                <p><strong>Nome:</strong> Cintia Romeu</p>
+                <p><strong>Contato:</strong> 11 987013258</p>
+                <p><strong>Vínculo:</strong> Mãe biológica</p>
+            </div>
+            <div class="linha-divisoria"></div>
+
+            <div class="div-info">
+                <h3>Plano de Saúde</h3>
+                <p><strong>Número do Plano:</strong> 123 456 789 00</p>
+                <p><strong>Nome do Plano:</strong> Saúde Premium</p>
+                <p><strong>Vencimento:</strong> 2025-08-15</p>
+            </div>
+            <div class="linha-divisoria"></div>
+
+            <div class="div-info">
+                <h3>Número SUS</h3>
+                <p>12345678901</p>
+            </div>
+            <div class="linha-divisoria"></div>
+
+            <div class="div-info">
+                <h3>Data de Nascimento</h3>
+                <p>2023-09-12</p>
+            </div>
+            <div class="linha-divisoria"></div>
+
+            <div class="div-info">
+                <h3>Informações Adicionais</h3>
+                <p><strong>ONR:</strong> Não</p>
+                <p><strong>Doador de Órgãos:</strong> Não</p>
+                <p><strong>Patologias Conhecidas:</strong> Não</p>
+            </div>
+        </section>
+
+        <section id="coluna-direita" class="sessao">
+            <!-- Botão reservado acima do resumo do paciente -->
+            <div class="div-info botao-reservado">
+                <button onclick="solicitarAcesso()">Solicitar Acesso</button>
+            </div>
+
+            <div class="div-info">
+                <h3>Resumo do Paciente</h3>
+                <div id="resumo-info">
+                    <p>Isabela é uma bebê saudável de 1 ano, que está em acompanhamento regular de consultas pediátricas e vacinação.</p>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Consultas</h3>
+                <div id="consultas-info">
+                    <div class="linha-consulta">
+                        <span><strong>Título:</strong> Consulta de rotina</span>
+                        <span><strong>Data:</strong> 2024-09-10</span>
+                        <button onclick="abrirPopUpConsulta()">Ver Detalhes</button>
+                    </div>
+                    <!-- Pop-up de consulta -->
+                    <div id="pop-up-consulta" class="pop-up oculto">
+                        <h4>Consulta de rotina</h4>
+                        <p><strong>Data:</strong> 2024-09-10</p>
+                        <p><strong>Hora:</strong> 10:30</p>
+                        <p><strong>Descrição:</strong> Consulta de rotina para acompanhamento do crescimento e desenvolvimento.</p>
+                        <p><strong>Médico:</strong> Dr. João Silva</p>
+                        <p><strong>CRM:</strong> 123456-SP</p>
+                        <button onclick="fecharPopUpConsulta()" class="fechar-pop-up">Fechar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Exames Realizados</h3>
+                <div id="exames-info">
+                    <div class="linha-exame">
+                        <span><strong>Título:</strong> Exame de sangue</span>
+                        <span><strong>Data:</strong> 2024-09-15</span>
+                        <button onclick="abrirPopUpExame()">Ver Detalhes</button>
+                    </div>
+                    <!-- Pop-up de exame -->
+                    <div id="pop-up-exame" class="pop-up oculto">
+                        <h4>Exame de Sangue</h4>
+                        <p><strong>Data:</strong> 2024-09-15</p>
+                        <p><strong>Descrição:</strong> Exame de sangue para verificar níveis de hemoglobina e outros indicadores.</p>
+                        <p><strong>Médica:</strong> Dra. Maria Souza</p>
+                        <p><strong>CRM:</strong> 654321-SP</p>
+                        <div class="miniaturas">
+                            <img src="https://example.com/imagem1.jpg" alt="Imagem 1">
+                            <img src="https://example.com/imagem2.jpg" alt="Imagem 2">
+                            <img src="https://example.com/imagem3.jpg" alt="Imagem 3">
+                            <img src="https://example.com/imagem4.jpg" alt="Imagem 4">
+                            <img src="https://example.com/imagem5.jpg" alt="Imagem 5">
+                            <img src="https://example.com/imagem6.jpg" alt="Imagem 6">
+                        </div>
+                        <button onclick="fecharPopUpExame()" class="fechar-pop-up">Fechar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Alergias</h3>
+                <div id="alergias-info">
+                    <p><strong>Título:</strong> Alergia a lactose</p>
+                    <p><strong>Descrição:</strong> Reações gastrointestinais ao ingerir produtos contendo lactose.</p>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Medicamentos</h3>
+                <div id="medicamentos-info">
+                    <p><strong>Medicamento:</strong> Paracetamol</p>
+                    <p><strong>Dosagem:</strong> 5 ml</p>
+                    <p><strong>Administração:</strong> Via oral a cada 6 horas, se necessário para febre.</p>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Receitas Médicas</h3>
+                <div id="receitas-info">
+                    <div class="linha-receita">
+                        <span><strong>Título:</strong> Receita para paracetamol</span>
+                        <span><strong>Data:</strong> 2024-09-10</span>
+                        <button onclick="abrirPopUpReceita()">Ver Detalhes</button>
+                    </div>
+                    <!-- Pop-up de receita -->
+                    <div id="pop-up-receita" class="pop-up oculto">
+                        <h4>Receita para Paracetamol</h4>
+                        <p><strong>Data:</strong> 2024-09-10</p>
+                        <p><strong>Descrição:</strong> Prescrição de paracetamol para febre.</p>
+                        <p><strong>Médico:</strong> Dr. João Silva</p>
+                        <p><strong>CRM:</strong> 123456-SP</p>
+                        <button onclick="fecharPopUpReceita()" class="fechar-pop-up">Fechar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Vacinas</h3>
+                <div id="vacinas-info">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome da Vacina</th>
+                                <th>Data de Aplicação</th>
+                                <th>Comprovante</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>BCG</td>
+                                <td>2023-09-20</td>
+                                <td><button onclick="abrirComprovanteVacina()">Ver Comprovante</button></td>
+                                <td><img src="https://example.com/status_sim.png" alt="Status Sim"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Vacinas de Reforço Anual</h3>
+                <div id="vacinas-anuais-info">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Vacina</th>
+                                <th>2020</th>
+                                <th>2021</th>
+                                <th>2022</th>
+                                <th>2023</th>
+                                <th>2024</th>
+                                <th>2025</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Gripe</td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                            </tr>
+                            <tr>
+                                <td>Covid</td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                            </tr>
+                            <tr>
+                                <td>Dengue</td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                                <td><img src="https://example.com/nao.png" alt="Não"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                                <td><img src="https://example.com/sim.png" alt="Sim"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="div-info">
+                <h3>Observações Gerais</h3>
+                <div id="observacoes-info">
+                    <p><strong>Cuidados gerais com a saúde da bebê</strong></p>
+                    <p>Isabela está crescendo saudável, e é importante manter consultas regulares ao pediatra, vacinas em dia e uma alimentação balanceada adequada para sua idade. <span style="color: red; font-weight: bold;">Atenção especial deve ser dada a qualquer sintoma diferente.</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="overlay"></div>
+
+    <script src="data.js"></script>
+</body>
+</html>

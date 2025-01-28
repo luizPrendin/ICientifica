@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Médicas</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <div class="receitas-container">
+        <div class="receitas-section">
+            <h2>Receitas Médicas</h2>
+            <table class="receitas-table">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Título da Receita</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="receitas-lista">
+                    <!-- Receitas serão inseridas aqui dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Pop-up para Detalhes da Receita Médica -->
+    <div class="popup-receita" id="popup-receita">
+        <button class="fechar-botao" id="fechar-receita">&times;</button>
+        <h2 id="titulo-receita"></h2>
+        <p><strong>Data:</strong> <span id="data-receita"></span></p>
+        <p><strong>Descrição:</strong></p>
+        <p id="descricao-receita"></p>
+        <p id="medico-crm-data"></p>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <script src="data.js"></script>
+</body>
+</html>

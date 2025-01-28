@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaso Saúde</title>
+  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="../css/pesquisa.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="src/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- NAVBAR --------------------------------------------------------------------------------------------- -->
+
+  <header>
+    <nav class="navbar">
+      <img src="src/images/logoroxa.png" alt="Logomarca Yaso" class="logo">
+      <ul class="nav-links">
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="../src/pages/projeto.html">Projeto</a></li>
+        <li><a href="../src/pages/usuario.html">Usuário</a></li>
+        <li><a href="../src/pages/medico.html">Médico</a></li>
+        <li><a href="../src/pages/instituicao.html">Instituição</a></li>
+        <li><a href="../src/pages/features.html">Features</a></li>
+      </ul>
+      <input type="text" placeholder="Buscar..." class="search-bar">
+      <a href="src/pages/login.html" class="btn-entrar">Entrar</a>
+    </nav>
+  </header>  
+  
+
+
+  <!-- SESSÃO 1: BANNER PRINCIPAL --------------------------------------------------------------------------------------------- -->
+
+<section class="banner-principal">
+    <div class="banner-texto">
+      <h1>Yaso Saúde</h1> <br>
+      <p>Yaso saúde é mais do que saúde, é você no controle das suas informações, dos seus exames às suas vacinas, você decide quem terá acesso aos seus dados, do seu jeito e no seu tempo.</p> <br><br>
+      <button class="btn-saiba-mais">Saiba Mais...</button>
+    </div>
+    <div class="banner-imagem">
+      <img src="src/images/splash.png" alt="Imagem do telefone e círculo">
+    </div>
+  </section>
+  
+  <!-- LINHA DE DIVISÓRIA --------------------------------------------------------------------------------------------- -->
+  <div class="divisoria"></div>
+
+<br>
+<br>
+<br>
+<br>
+
+  <!-- CARROSSEL MODO EMERGENCIA --------------------------------------------------------------------------------------------- -->
+<section class="carrossel-samu">
+  <h1>Sobre o projeto</h1> <br>
+  <p class="texto-justificado">
+    Yaso é um aplicativo gerenciado por você, com o Yaso você determina o que você quer guardar e o que é relevante para você. Você pode guardar e organizar toda a sua vida médica em um único lugar. Todas as informações sobre a sua saúde em um único lugar, sejam os seus medicamentos controlados, suas vacinas, seus exames e as suas consultas, encontrar médicos recomendados e muito mais.
+  </p>
+  <br>
+  <!-- Carrossel -->
+  <div class="carrossel-container">
+    <div class="carrossel-slides">
+      <!-- Slide 1 -->
+      <div class="slide active">
+        <img src="src/images/carrossel/1.png" alt="Conheça o modo SAMU">
+        <div class="carrossel-texto">
+          <h2>Conheça o modo de emergência</h2> <br>
+          <p>O modo emergência é capaz de fornecer informações críticas sobre o usuário durante atendimentos emergenciais, como seu tipo sanguíneo, se você é ONR, se aceita transfusão de sangue, seus medicamentos e as suas alergias, tudo isso em apenas alguns segundos, pois quando se trata da sua vida, cada segundo importa.</p> <br>
+          <button class="btn-saiba-mais2">Saiba Mais...</button> <br><br>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+        <img src="src/images/carrossel/2.png" alt="Funcionalidade de Vacinas">
+        <div class="carrossel-texto">
+          <h2>Vacinas</h2><br>
+          <p>Gerencie todas as suas vacinas e integre com a carteira digital de vacinação, conectando-se automaticamente com o sistema de saúde para manter suas informações atualizadas.</p><br>
+          <button class="btn-saiba-mais2">Saiba Mais...</button><br><br>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+        <img src="src/images/carrossel/3.png" alt="Integração com Exames">
+        <div class="carrossel-texto">
+          <h2>Exames</h2><br>
+          <p>Faça o upload dos seus exames, digitalize documentos diretamente pelo app e tenha todos os seus dados acessíveis de forma segura e organizada.</p><br>
+          <button class="btn-saiba-mais2">Saiba Mais...</button><br><br>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide">
+        <img src="src/images/carrossel/4.png" alt="Consulta de Prontuários Médicos">
+        <div class="carrossel-texto">
+          <h2>Prontuários Médicos</h2><br>
+          <p>Acesse e compartilhe seus prontuários médicos com seus profissionais de saúde de forma segura, mantendo o controle total sobre o acesso aos seus dados.</p><br>
+          <button class="btn-saiba-mais2">Saiba Mais...</button><br><br>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="slide">
+        <img src="src/images/carrossel/5.png" alt="Histórico de Consultas">
+        <div class="carrossel-texto">
+          <h2>Consultas</h2><br>
+          <p>Agende e gerencie suas consultas médicas de forma prática e acompanhe seu histórico de atendimentos diretamente no Yaso.</p><br>
+          <button class="btn-saiba-mais2">Saiba Mais...</button><br><br>
+        </div>
+      </div>
+    </div>
+
+    <!-- Indicadores do Carrossel -->
+    <div class="carrossel-indicadores">
+      <span class="indicador ativo"></span>
+      <span class="indicador"></span>
+      <span class="indicador"></span>
+      <span class="indicador"></span>
+      <span class="indicador"></span>
+    </div>
+  </div>
+</section>
+
+<br><br>
+
+<!-- Linha divisória com logo -->
+<div class="linha-divisoria">
+    <div class="linha"></div>
+    <img src="src/images/divisoria.png" alt="Logo Yaso" class="logo-divisoria">
+    <div class="linha"></div>
+</div>
+
+<br><br>
+
+  <!-- POR QUE USAR O YASO --------------------------------------------------------------------------------------------- -->
+  <section class="por-que-usar">
+    <h1>Por que usar o Yaso?</h1>
+    <div class="conteudo-por-que-usar">
+      <div class="imagem-por-que-usar">
+        <img src="src/images/telefone/17.png" alt="Imagem do telefone Yaso">
+      </div>
+      <div class="texto-por-que-usar">
+        <p>
+          Com o Yaso você está no controle sobre as suas informações médicas, sem depender de sistemas proprietários, sem depender de médicos e instituições médicas, a informação é sua e você decide como quer cuidar dela.
+        </p>
+        <p>
+          Com o Yaso, em caso de emergências médicas ou da necessidade de fácil acesso a uma informação médica, você pode decidir quem terá acesso, por quanto tempo e o que terá acesso sobre a sua saúde.
+        </p>
+        <p>
+          Livre do controle das instituições médicas, clínicas e laboratórios. Você não precisa mais guardar centenas de sites, logins e senha, ficar procurando por horas no seu WhatsApp.
+        </p>
+        <p>
+          Seja para seu filho ou filha, seja para seus pais ou avós, seja para você mesmo, você pode criar um plano familiar e decidir quem pode compartilhar informações com você e até que ponto essas informações estarão acessíveis.
+        </p>
+        <p>
+          O Yaso descentraliza as suas informações médicas e faz com que você decida quem poderá ter acesso a elas, não é você que deve pedir autorização das instituições médicas para acessar os seus dados, é a instituição que precisa pedir à você.  
+        </p>
+        <p>
+          Alta segurança, criptrografia de ponta a ponta. O Yaso foi projetado para proteger os seus dados de qualquer acesso indesejado. Para isso o yaso conta também com um sistema de token de autorização, no qual cada acesso de terceiro as suas informações precisa ser aprovada por você e você pode revogar esse acesso a qualquer momento.  
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <!-- Linha divisória com logo -->
+  <div class="linha-divisoria">
+      <div class="linha"></div>
+      <img src="src/images/divisoria.png" alt="Logo Yaso" class="logo-divisoria">
+      <div class="linha"></div>
+  </div>
+  
+  <br><br>
+
+  <!-- CONSENTIMENTO DE USO --------------------------------------------------------------------------------------------- -->
+
+<section class="por-que-usar">
+    <h1>Consentimento de uso</h1>
+    <div class="conteudo-por-que-usar">
+      <div class="imagem-por-que-usar">
+        <img src="src/images/telefone/18.png" alt="Imagem do telefone Yaso">
+      </div>
+      <div class="texto-por-que-usar alinhado-direita">
+        <p>
+            Você decide quem, por quanto tempo e o que pode ser acessado por um médico ou uma instituição de saúde.
+        </p>
+        <p>
+            Vamos usar um exemplo simples: Você possui um exame de sangue e uma ressonância, você pode compartilhar e consentir o acesso a estes dados escolhendo quanto tempo o médico poderá ter acesso, se ele poderá baixar o conteúdo ou somente visualizar.
+        </p>
+        <p>
+            E o melhor, você pode revogar esse acesso a qualquer momento com apenas 1 clique.
+        </p>
+        <p>
+            Já os seus médicos frequentes, aqueles no qual você confia e faz visitas periódicas, você pode criar um plano no qual ele terá acesso em tempo real aos dados, quais tipos de dados podem ser acessados.
+        </p>
+        <p>
+            Cada funlção do Yaso foi pensado para você!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <!-- Linha divisória com logo -->
+  <div class="linha-divisoria">
+      <div class="linha"></div>
+      <img src="src/images/divisoria.png" alt="Logo Yaso" class="logo-divisoria">
+      <div class="linha"></div>
+  </div>
+  
+  <br><br>
+
+  <!-- MODO EMERGENCIA --------------------------------------------------------------------------------------------- -->
+
+<section class="por-que-usar">
+    <h1>Modo de emergência</h1>
+    <div class="conteudo-por-que-usar">
+      <div class="imagem-por-que-usar">
+        <img src="src/images/telefone/16.png" alt="Imagem do telefone Yaso">
+      </div>
+      <div class="texto-por-que-usar alinhado-direita">
+        <p>
+            Já parou para pensar que momentos de emergências médicas podem fazer a diferença na sua vida? Tipo sanguíneo, ONR, recebedor de sangue, alergias, remédios controlados. Quando se trata da sua vida cada detalhe importa.        </p>
+        <p>
+            Oportunidades surgem das necessidades.        </p>
+        <p>
+            Não espere precisar, cuide agora.        </p>
+        <p>
+            Quando falamos sobre a sua saúde, cada segundo pode fazer a diferença na sua vida, seja em uma emergência ou no cotidiano. Nosso produto nasceu das nossas próprias necessidades e então descobrimos que essas necessidades podem também ser sua.        </p>
+        <p>
+            Agilidade na procura da informação, Recomendações de profissionais relevantes, Tudo em um só lugar.        </p>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <!-- Linha divisória com logo -->
+  <div class="linha-divisoria">
+      <div class="linha"></div>
+      <img src="src/images/divisoria.png" alt="Logo Yaso" class="logo-divisoria">
+      <div class="linha"></div>
+  </div>
+  
+  <br><br>
+
+  <!-- FUNÇÕES EXCLUSIVAS --------------------------------------------------------------------------------------------- -->
+
+<section class="por-que-usar">
+    <h1>Funções exclusivas</h1>
+    <div class="conteudo-por-que-usar">
+      <div class="imagem-por-que-usar">
+        <img src="src/images/telefone/10.png" alt="Imagem do telefone Yaso">
+      </div>
+      <div class="texto-por-que-usar alinhado-direita">
+        <p>
+            As instituições médicas possuem diversos sistemas e produtos e fica difícil comunicar todos os dados possíveis em um único sistema e é por isso que o Yaso nasceu.        </p>
+        <p>
+            Como não é possível, ao menos por enquanto, fazer com que todos os sistemas se integrem de maneira satisfatória, desenvolvemos uma solução que une tudo o que você precisa quando se trata dos seus dados médicos.       </p>
+        <p>
+            Com o Yaso você pode armazenar seus exames, anexar os exames independente do formato, do tamanho. Você pode procurar exames por data, por tipo, por médico, por basicamente todas as informações que estejam presentes no documento.  Você organiza as suas consultas, seus medicamentos e as suas receitas, sua carteira de vacinação digital, alergias medicamentosas ou alergicas, possiu o Yaso card que centraliza as informações críticas sobre você que podem fazer a diferença em caso de emergência médica, como seus contatos emergenciais, seu tipo sanguíneo, recusas de procedimentos médicos, alergias, medicamentos controlados e muito mais.     </p>
+        <p>
+            O Yaso possui 93 funções, cada uma delas foi desenvolvida com base no que pode ser necessário um dia para você, não queremos cuidar somente do hoje, queremos cuidar de você sempre.</p>
+        <p>
+            Não perca tempo, baixe agora mesmo o Yaso!       </p>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <!-- Linha divisória com logo -->
+  <div class="linha-divisoria">
+      <div class="linha"></div>
+      <img src="src/images/divisoria.png" alt="Logo Yaso" class="logo-divisoria">
+      <div class="linha"></div>
+  </div>
+  
+  <br><br>
+
+ <!-- EQUIPE --------------------------------------------------------------------------------------------- -->
+
+ <section class="nossa-equipe">
+    <h1>Nossa equipe</h1>
+    <p class="descricao-equipe">
+        Entre os projetos do Startup One, do Challenge, da Global Solution, resolvemos topar mais um desafio, a Iniciação Científica.  <br><br>
+        E aqui estamos nós, em meio a muito aprendizado, também há muita dedicação de nossos integrantes. <br><br>
+        Foram muitas noites em claro, muita determinação, dezenas de encontros para discutir funções e o que seria aplicado no MVP. <br><br>
+        A documentação do Yaso conta com mais de 600 páginas de pesquisa, descrições, comparativos e concorrência, sistema de monetização, custos e precificações, tecnologias aplicadas em cada sessão ou função, trechos de códigos de exemplo de tecnologias avançadas como LPN, OCR entre muitas outras, levou 6 meses para ser construída. <br><br>
+        Foram feitas pesquisas internacionais sobre concorrência, detalhamento de cada função, de cada tela do protóripo, de tudo o que consiste esse ecossistema. Cada tela, ícone, botão, fonte, cada pequeno detalhe deste projeto foi meticulosamente descrito com muito empenho e dedicação.<br><br>
+        Essas aqui são as pessoas que juntos criaram o Yaso. <br>
+    </p>
+
+    <div class="membros-equipe">
+        <div class="membro">
+            <img src="src/images/equipe/livia.png" alt="Lívia Freitas" class="foto-membro">
+            <h3>Lívia Freitas</h3> <br>
+            <p>RM 99892</p>
+            <p>FIAP - 2TDSPM</p> <br>
+            <div class="social-icons">
+                <a href="https://github.com/freitaslivia" target="_blank">
+                    <img src="src/icon/github-roxo.png" alt="Github" class="icone-social">
+                </a>
+                <a href="https://linkedin.com/in/liviafreitas" target="_blank">
+                    <img src="src/icon/linkedin-roxo.png" alt="LinkedIn" class="icone-social">
+                </a>
+                <a href="https://www.instagram.com/freitasliviaa/" target="_blank">
+                    <img src="src/icon/instagram-roxo.png" alt="Instagram" class="icone-social">
+                </a>
+            </div>
+        </div>
+
+        <div class="membro">
+            <img src="src/images/equipe/luiz.png" alt="Luiz Predin" class="foto-membro">
+            <h3>Luiz Predin</h3> <br>
+            <p>RM 552475</p>
+            <p>FIAP - 2TDSPM</p> <br>
+            <div class="social-icons">
+                <a href="https://github.com/luizPrendin" target="_blank">
+                    <img src="src/icon/github-roxo.png" alt="Github" class="icone-social">
+                </a>
+                <a href="https://www.linkedin.com/in/luizprendin/" target="_blank">
+                    <img src="src/icon/linkedin-roxo.png" alt="LinkedIn" class="icone-social">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="src/icon/instagram-roxo.png" alt="Instagram" class="icone-social">
+                </a>
+            </div>
+        </div>
+
+        <div class="membro">
+            <img src="src/images/equipe/renato.png" alt="Renato Romeu" class="foto-membro">
+            <h3>Renato Romeu</h3> <br>
+            <p>RM 551325</p>
+            <p>FIAP - 2TDSPM</p> <br>
+            <div class="social-icons">
+                <a href="https://github.com/RenatoRussano" target="_blank">
+                    <img src="src/icon/github-roxo.png" alt="Github" class="icone-social">
+                </a>
+                <a href="https://www.linkedin.com/in/renato-russano-706423a3/" target="_blank">
+                    <img src="src/icon/linkedin-roxo.png" alt="LinkedIn" class="icone-social">
+                </a>
+                <a href="https://www.instagram.com/renato.romeu/" target="_blank">
+                    <img src="src/icon/instagram-roxo.png" alt="Instagram" class="icone-social">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br>
+
+<!-- Linha divisória com logo -->
+<div class="linha-divisoria">
+    <div class="linha"></div>
+    <img src="src/images/divisoria.png" alt="Logo Yaso" class="logo-divisoria">
+    <div class="linha"></div>
+</div>
+
+<br><br>
+
+ <!-- NEWS LETTER --------------------------------------------------------------------------------------------- -->
+
+ <section class="mvp-section">
+    <h1>Sobre o MVP</h1>
+    <p>
+        Este é um projeto acadêmico, se você chegou até aqui e não é um professor ou aluno da FIAP, este é um projeto de conclusão de curso. Esperamos poder realmente desenvolver este produto até o final da sua ideação, se inscreva para receber informações sobre o andamento do projeto e os passos futuros.
+    </p>
+
+    <form action="http://localhost:5000/api/news" method="POST" class="form-newsletter">
+        <input type="text" name="nome" placeholder="nome" required>
+        <input type="email" name="email" placeholder="e-mail" required>
+        <button type="submit" class="btn-newsletter">fique por dentro</button>
+    </form>
+</section>
+
+<br><br>
+
+<!-- Linha divisória com logo -->
+<div class="linha-divisoria">
+    <div class="linha"></div>
+    <img src="src/images/divisoria.png" alt="Logo Yaso" class="logo-divisoria">
+    <div class="linha"></div>
+</div>
+
+ <!-- TOGGLES --------------------------------------------------------------------------------------------- -->
+
+ <section class="faq-section">
+    <h1>Perguntas Frequentes</h1>
+  
+    <div class="toggle-container">
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Funções básicas</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O Yaso é uma plataforma digital que centraliza o gerenciamento de dados médicos pessoais e familiares, como exames, vacinas, e consultas. Entre as principais funções estão o Modo Emergência, que facilita o acesso rápido a informações críticas, o Modo Família, para compartilhamento seguro de dados, e o Token de Consentimento, que garante controle sobre quem pode acessar suas informações. A plataforma também oferece integração com APIs de saúde, segurança com criptografia e autenticação em duas etapas, além de alertas para vacinas e consultas.</p>
+        </div>
+      </div>
+  
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Modo Emergência</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O Modo de Emergência do Yaso permite o acesso imediato a informações essenciais, como tipo sanguíneo, alergias e medicamentos, mesmo com o telefone bloqueado. Ele foi projetado para ser utilizado em situações de urgência, facilitando a comunicação de dados médicos críticos a socorristas e profissionais de saúde, sem necessidade de desbloquear o dispositivo. Este recurso pode salvar vidas ao garantir que informações vitais estejam sempre acessíveis.</p>
+        </div>
+      </div>
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Modo Família</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O Modo Família do Yaso facilita o gerenciamento de informações médicas entre os membros da família. Com ele, é possível compartilhar dados de saúde de maneira segura e controlada, permitindo que pais, filhos ou cuidadores tenham acesso às informações essenciais sobre a saúde dos familiares. O usuário mantém o controle sobre quais dados são compartilhados e com quem, garantindo segurança e privacidade.</p>
+        </div>
+      </div>
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>OCR Camera Vision</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O OCR Camera Vision do Yaso permite que os usuários digitalizem documentos médicos físicos, como receitas, exames ou laudos, diretamente pelo aplicativo. Usando tecnologia de reconhecimento óptico de caracteres (OCR), o sistema transforma esses documentos em dados estruturados e armazenáveis no perfil do usuário. Isso elimina a necessidade de manter papéis físicos e facilita o gerenciamento digital das informações médicas.</p>
+        </div>
+      </div>
+  
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Banco de dados e criptografia</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O Yaso utiliza um banco de dados relacional altamente seguro, que armazena todas as informações médicas de forma organizada e acessível. Para garantir a segurança dos dados, são utilizadas técnicas de criptografia avançada, como AES-256, que protege os dados tanto em repouso quanto em trânsito. O sistema também está preparado para integrações com APIs de saúde, permitindo a importação automática de informações de laboratórios e clínicas.</p>
+        </div>
+      </div>
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Token de consentimento</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O Token de Consentimento do Yaso oferece aos usuários controle granular sobre quem pode acessar suas informações médicas e por quanto tempo. Com essa funcionalidade, o usuário pode definir níveis de acesso para profissionais de saúde, garantindo que apenas as informações autorizadas sejam compartilhadas. O token pode ser gerado a qualquer momento, assegurando privacidade e conformidade com normas de proteção de dados, como a LGPD.</p>
+        </div>
+      </div>
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Descentralização dos dados</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O Yaso promove a descentralização dos dados médicos ao retirar a dependência das instituições de saúde no gerenciamento de informações pessoais. Em vez de depender de sistemas fragmentados, o paciente se torna o principal gestor de seus dados de saúde. A plataforma oferece controle total ao usuário, permitindo que ele decida quem pode acessar suas informações e por quanto tempo, através de tokens de consentimento. Isso empodera o paciente, oferecendo segurança e transparência, e facilita o acesso rápido às informações em situações críticas.</p>
+        </div>
+      </div>
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Desenvolvimento</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O Yaso está em estágio avançado de desenvolvimento, com a fase de MVP (Produto Mínimo Viável) já concluída, incluindo funcionalidades como a centralização de dados médicos, Modo Emergência e Token de Consentimento. O desenvolvimento segue um cronograma estruturado que inclui integração de APIs, testes de usabilidade e segurança, além do lançamento beta. Após os testes, o lançamento público está previsto, seguido de atualizações contínuas e adição de novas funcionalidades, como integração com dispositivos wearables e ferramentas avançadas de análise de dados.</p>
+        </div>
+      </div>
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Funções presentes no MVP</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O MVP (Produto Mínimo Viável) do Yaso inclui funcionalidades básicas essenciais para o gerenciamento de dados médicos, como a centralização de informações de saúde, Modo Emergência, Modo Família, Token de Consentimento e integração com APIs de saúde. Outras funcionalidades como lembretes de vacinas e consultas, escaneamento de documentos médicos via OCR, e criptografia avançada para segurança também fazem parte do MVP.</p>
+        </div>
+      </div>
+
+      <div class="toggle">
+        <div class="toggle-header">
+          <h2>Limitações</h2>
+          <img src="src/icon/plus.png" alt="Plus Icon" class="toggle-icon">
+        </div>
+        <div class="toggle-content">
+          <p>O projeto encontra-se em um estágio avançado de documentação e estrutura, mas o seu desenvolvimento prático está em estágio inicial, então grande partes das funções podem apresentar falhas, estarem ausentes ou estarem apresentadas de maneira não interativa, servindo apenas como marcação no desenvolvimento do front. Esse desenvolvimento está previsto para levar de 3 a 6 anos, a medida que novas funções forem estabilizadas, atualizaremos os guias e as documentações sobre as features do projeto.</p>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+<br><br> <br><br>
+
+ <!-- FOOTER --------------------------------------------------------------------------------------------- -->
+<!-- Local para a imagem logo acima do footer -->
+<img src="src/images/footer.png" alt="Imagem logo acima do footer" class="footer-image">
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>Yaso Saúde Digital © 2024 Todos os direitos reservados.</p>
+        <div class="footer-icons">
+            <a href="#"><img src="src/icon/figma.png" alt="Figma"></a>
+            <a href="#"><img src="src/icon/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="src/icon/github.png" alt="GitHub"></a>
+            <a href="#"><img src="src/icon/document.png" alt="Documentos"></a>
+        </div>
+        <p><a href="#" class="privacy-policy">política de privacidade</a></p>
+    </div>
+</footer>
+
+<script src="/src/script/index.js"></script>
+<script src="../script/pesquisa.js"></script>
+
+</body>
+</html>
